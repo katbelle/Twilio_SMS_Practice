@@ -9,6 +9,6 @@ client = Client(account_sid, auth_token)
 
 client.messages.create(
 	to=os.environ["MY_PHONE_NUMBER"],
-	from="+14159806136",
+	from_="+14159806136",
 	body="Hi Diffles I wrote this script with Twilio to text you"
 )
