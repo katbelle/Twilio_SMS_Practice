@@ -9,5 +9,5 @@ client = Client(account_sid, auth_token)
 client.messages.create(
 	to=os.environ["MY_PHONE_NUMBER"],
 	from_="+14159806136",
-	body="This is working"
+	body="If you're receiving this message, my twilio app works!"
 )
